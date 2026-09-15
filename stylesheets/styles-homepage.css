@@ -1,0 +1,148 @@
+/* Homepage styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    background-color: rgb(255, 255, 255);
+}
+/* Logo styling  */
+.logo {
+    width: auto;
+    height: 20vh;
+    margin-bottom: 10px;
+}
+
+  /* Menu styling */
+
+.menu {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu ul {
+    justify-content: center; 
+    align-items: center;
+    /* background: #400255;  */
+    background: #5c1375;
+     /* background: #73169c; */
+    list-style: none; 
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    gap: 20px; 
+  }
+  
+.menu ul li {
+      font-weight: bold;
+  }
+  
+.menu ul li a {
+    text-decoration: none; 
+    color: #ffffff;           
+    font-size: 1.1em;      
+    padding: 10px 15px;    
+    transition: color 0.3s; 
+  }
+  
+.menu ul li a:hover {
+      color: #e2b2f6; 
+  }
+
+/* Objectives container styling */
+
+.objectives-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  width: 90%;
+  margin: 20px auto;
+  text-align:center;
+  font-size:large;
+}
+
+/* Individual box */
+.objectives {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: left;
+  border: 2px solid #ccc;
+}
+
+/* Styling for headers */
+.objectives h4 {
+  text-align: center;
+  font-size: 18pt;
+  margin-bottom: 10px;
+  color: #333;
+  
+}
+.objectives p {
+  font-size: 14pt;
+ 
+}
+.objectives:nth-child(1) {
+    background-color: #e1abea;
+}
+
+.objectives:nth-child(2) {
+    background-color: #bfe5ea;
+}
+
+.objectives:nth-child(3) {
+    background-color: #edaee7;
+}
+.footer ul {
+    margin:0 20px ;
+    text-align: center; 
+    padding: 5px; /* some padding around the links */
+  
+} 
+
+
+/* footer section */
+.footer {
+  width: 100%;
+  background-color: #5c1375;
+  color: rgb(5, 5, 5);
+  /* text-align: center; */
+  padding: 5px;
+  /* position: fixed;  */ /* This give a fix position of the band when scrolling*/
+  bottom: 0;
+  left: 0;
+ 
+}
+.footer ul {
+  justify-content: center; 
+  align-items: center;
+  /* background: #fd8e18; /This will give the bar*/ 
+  list-style: none; /* Remove default list styling */
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  gap: 30px; /* Spacing between menu items */
+}
+
+.footer ul li {
+    font-weight: bold;
+}
+
+.footer ul li a {
+  text-decoration: none; /* Remove underline */
+  color: #ffffff;          
+  font-size: 1.1em;      
+  padding: 10px 15px;    /* Padding around links */
+  transition: color 0.3s; /* Smooth hover effect */
+}
+
+.footer ul li a:hover {
+    color: #e2b2f6; /* Change color on hover */
+}
