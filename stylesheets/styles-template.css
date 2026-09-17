@@ -56,50 +56,7 @@ header {
       color: #e2b2f6; 
   }
 
-/* Objectives container styling */
 
-.objectives-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  width: 90%;
-  margin: 20px auto;
-  text-align:center;
-  font-size:large;
-}
-
-/* Individual box */
-.objectives {
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 15px;
-  text-align: left;
-  border: 2px solid #ccc;
-}
-
-/* Styling for headers */
-.objectives h4 {
-  text-align: center;
-  font-size: 18pt;
-  margin-bottom: 10px;
-  color: #333;
-  
-}
-.objectives p {
-  font-size: 14pt;
- 
-}
-.objectives:nth-child(1) {
-    background-color: #e1abea;
-}
-
-.objectives:nth-child(2) {
-    background-color: #bfe5ea;
-}
-
-.objectives:nth-child(3) {
-    background-color: #edaee7;
-}
 .footer ul {
     margin:0 20px ;
     text-align: center; 
