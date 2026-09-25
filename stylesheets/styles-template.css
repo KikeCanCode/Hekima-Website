@@ -1,9 +1,8 @@
-/* Homepage styling */
+/* global styling */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+ 
 }
-
-/* Header */
 header {
     display: flex;
     flex-direction: column;
@@ -12,6 +11,7 @@ header {
     height: 25vh;
     background-color: rgb(255, 255, 255);
 }
+
 /* Logo styling  */
 .logo {
     width: auto;
@@ -20,7 +20,6 @@ header {
 }
 
   /* Menu styling */
-
 .menu {
     position: sticky;
     top: 0;
@@ -60,7 +59,7 @@ header {
 .footer ul {
     margin:0 20px ;
     text-align: center; 
-    padding: 5px; /* some padding around the links */
+    padding: 5px;
   
 } 
 
@@ -70,9 +69,7 @@ header {
   width: 100%;
   background-color: #5c1375;
   color: rgb(5, 5, 5);
-  /* text-align: center; */
   padding: 5px;
-  /* position: fixed;  */ /* This give a fix position of the band when scrolling*/
   bottom: 0;
   left: 0;
  
@@ -81,11 +78,11 @@ header {
   justify-content: center; 
   align-items: center;
   /* background: #fd8e18; /This will give the bar*/ 
-  list-style: none; /* Remove default list styling */
+  list-style: none; 
   padding: 1rem;
   margin: 0;
   display: flex;
-  gap: 30px; /* Spacing between menu items */
+  gap: 30px; 
 }
 
 .footer ul li {
@@ -93,13 +90,55 @@ header {
 }
 
 .footer ul li a {
-  text-decoration: none; /* Remove underline */
+  text-decoration: none; 
   color: #ffffff;          
   font-size: 1.1em;      
-  padding: 10px 15px;    /* Padding around links */
-  transition: color 0.3s; /* Smooth hover effect */
+  padding: 10px 15px;   
+  transition: color 0.3s;
 }
 
 .footer ul li a:hover {
-    color: #e2b2f6; /* Change color on hover */
+    color: #e2b2f6; 
+}
+
+.social-links {
+  width: 100%;
+  text-align: center;
+}
+
+.social-links p,
+.copyright p {
+  margin: 10px 0;
+  text-align: center;
+  color: #e2b2f6;
+
+}
+
+.social-links a, 
+.copyright a {
+    margin: 0 10px;
+    font-size: 18px;
+    color: #e2b2f6;
+    text-decoration: none;
+    transition: color 0.3s;
+    text-align: center;
+}
+
+
+.social-links a:hover {
+    color: #a64ca6; 
+}
+ 
+.copyright a {
+    margin: 0 10px;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+.developer p {
+  margin: 0 10px;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
 }
