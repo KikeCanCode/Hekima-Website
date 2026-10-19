@@ -1,3 +1,13 @@
+.about-heading, 
+.program-heading,
+.data-container h1 {
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: #5c1375;
+  padding: 1rem;
+}
+
 .about-hero {
   display: grid;
   grid-template-columns: 1fr 1fr; 
@@ -38,15 +48,6 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
 }
 
-
-/* Base Container Style */
-
-.program-heading h2  {
-  text-align: center;
-  font-size: 2rem;
-  padding: 10px;
-  
-}
 .about-container {
   display: grid;
   grid-template-columns: 1fr 1fr; 
@@ -69,21 +70,59 @@
   justify-content: center;
 }
 
-.about-grid h2 {
-  color: #000000;
-  font-size: 2.5rem;
-  line-height: 1.7;
+.about-grid h2,
+.data-container h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+  font-weight: bold;
+  color:#e2b2f6;
+  margin: 0;
 
 }
 /* Text Formatting */
-.about-grid p {
+.about-grid p,
+.data-container p {
   color: #4a4a4a;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.7;
   margin: 0;
   width: 100%;
 }
 
+.cta {
+  width: 70%;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Soft elevation shadow */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center; 
+}
+.cta p {
+  color: #4a4a4a;
+  font-size: 1.5rem;
+  line-height: 1.7;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.button  { 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 12pt;
+
+  background-color: #5c1375;
+  color: #ffffff;
+  padding: 10px 10px;
+  border-radius: 15px;
+
+  font-weight: bold;
+  text-decoration: none;
+  justify-self: center;
+  margin: 0;
+}
 
 
 /* Responsive Layout for Desktop (Tablets and Up) */
