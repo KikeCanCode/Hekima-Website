@@ -27,17 +27,30 @@ header {
 }
 
 .menu ul {
-    justify-content: center; 
-    align-items: center;
-    /* background: #400255;  */
-    background: #5c1375;
-     /* background: #73169c; */
-    list-style: none; 
-    padding: 1rem;
-    margin: 0;
-    display: flex;
-    gap: 20px; 
+  text-align: center;
+  justify-content: center; 
+  align-items: center;
+  background: #5c1375;
+  list-style: none; 
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  gap: 30px; 
+
   }
+
+  .footer ul {
+ 
+  text-align: center;
+  justify-content: center; 
+  align-items: center;
+  list-style: none; 
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  gap: 30px; 
+
+}
   
 .menu ul li {
       font-weight: bold;
@@ -46,7 +59,7 @@ header {
 .menu ul li a {
     text-decoration: none; 
     color: #ffffff;           
-    font-size: 1.1em;      
+    font-size: 1rem;      
     padding: 10px 15px;    
     transition: color 0.3s; 
   }
@@ -54,14 +67,6 @@ header {
 .menu ul li a:hover {
       color: #e2b2f6; 
   }
-
-
-.footer ul {
-    margin:0 20px ;
-    text-align: center; 
-    padding: 5px;
-  
-} 
 
 
 /* footer section */
@@ -75,14 +80,16 @@ header {
  
 }
 .footer ul {
+  display: flex;
+  text-align: center;
   justify-content: center; 
   align-items: center;
-  /* background: #fd8e18; /This will give the bar*/ 
   list-style: none; 
   padding: 1rem;
   margin: 0;
   display: flex;
   gap: 30px; 
+
 }
 
 .footer ul li {
@@ -92,7 +99,7 @@ header {
 .footer ul li a {
   text-decoration: none; 
   color: #ffffff;          
-  font-size: 1.1em;      
+  font-size: 1em;      
   padding: 10px 15px;   
   transition: color 0.3s;
 }
@@ -129,6 +136,34 @@ header {
     color: #a64ca6; 
 }
  
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+/* Both columns */
+.footer-container h3 {
+    color: #e1abea;
+    margin-bottom: 15px;
+}
+
+.footer-container p {
+    color: white;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Contact icons */
+.footer-container i {
+    color: #e1abea;
+    margin-right: 8px;
+}
+
 .copyright a {
     margin: 0 10px;
     font-size: 16px;
@@ -141,4 +176,46 @@ header {
   font-size: 14px;
   text-align: center;
   padding: 10px;
+}
+/* Impact section  */
+
+.impact {
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  justify-items:center;
+  padding-top: 30px 20px;
+}
+
+.data-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 0.75fr));
+  gap: 20px;
+  width: 70%;
+  margin: 20px auto;
+  text-align:center;
+  font-size:large;
+}
+
+/* Individual box */
+.data-grid {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+/* Styling for headers */
+.data-grid h1 {
+  text-align: center;
+  font-size: 20pt;
+  margin-bottom: 10px;
+   
+}
+
+.data-grid p {
+  font-size: 14pt;
+  text-align: center;
+
 }
