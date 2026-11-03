@@ -1,24 +1,25 @@
 
-.header2 {
+.hero-container {
   position:relative;
   width: 100%;
   text-align: center;
   overflow: hidden;
-  height: 700px;
+  height: auto;
 }
 
-.header2 img {
+.hero-container img {
     display:block;
     height:auto;
     width: 70%;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 25px auto 0;
 }
 
 .intro
  {
   display: grid;
-  grid-template-columns: 0.7fr 1.3fr;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 0.75fr));
+
   gap: 5px;
   width: 70%;
   margin: auto;

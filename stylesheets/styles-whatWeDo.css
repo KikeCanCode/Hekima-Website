@@ -6,12 +6,23 @@
   height: 700px;
 }
 
-.header2 img {
+
+
+/* hero styling */
+.hero-container{
+  position:relative;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  height: auto;
+}
+
+.hero-container img {
     display:block;
-    height:auto;
     width: 70%;
+    height:auto;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 25px auto 0;
 }
 
 .what-we-do h1 {
@@ -28,7 +39,9 @@
 
 .work-container {
   display: grid;
-  grid-template-columns: 1fr 1fr; 
+  /* grid-template-columns: 1fr 1fr;  */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 0.75fr));
+
   gap: 2rem;
   width: 80%;
   margin: 2rem auto;
