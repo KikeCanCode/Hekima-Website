@@ -33,7 +33,7 @@
 
      <div class="form-container">
       <h2>Contact Us </h2>
-      <form id="intakeForm" action="https://formsubmit.co/hekimatz@gmail.com.com" method="POST">
+      <form id="intakeForm" action="https://formsubmit.co/hekimatz@gmail.com" method="POST">
           <!-- Personal Details Section -->
           <label for="full-name">Full Name</label>
           <input type="text" id="full-name" name="name" placeholder="Your full name" required> <br>
@@ -45,29 +45,28 @@
           <input type="tel" id="phone" name="phone" placeholder="Your phone number" required> <br>
   
           <!-- Project Details Section -->
-          <label for="enquiry-type">What's Your Enquiry</label> 
+          <label for="enquiry-type">What's Your Enquiry?</label> 
           <select id="enquiry-type" name="project-type" required>
-              <option value="">Select </option>
-              <option value="branding">Genral Enquiry</option>
-              <option value="web-design">Donate</option>
+              <option value="">Select an option</option>
+              <option value="branding">General Enquiry</option>
+              <option value="web-design">Donation</option>
               <option value="content">Volunteering</option>
           </select> <br>
   
           <label for="project-details">Enquiry Details</label><br>
-          <textarea id="project-details" name="project-details" rows="10" cols="100" placeholder="Describe your project" required></textarea><br>
+          <textarea id="project-details" name="project-details" rows="10" cols="100" placeholder="How can we help you?" required></textarea><br>
   
           <!-- Submit and Reset Buttons -->
           <button type="submit">Submit</button> <br>
           <input type="reset" value="Reset">
   
           <!-- Hidden fields for FormSubmit configuration -->
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_subject" value="New Intake Form Submission">
+          <input type="hidden" name="_subject" value="New Hekima Voice Enquiry Form Submission">
 
       </form>
   
       <!-- Confirmation message -->
-      <p id="confirmationMessage" style="display: none; color: rgb(0, 0, 0);">Thank you! Your form has been submitted successfully.</p>
+      <!-- <p id="confirmationMessage" style="display: none; color: rgb(0, 0, 0);">Thank you! Your form has been submitted successfully.</p> -->
   </div>
 
     <br>
